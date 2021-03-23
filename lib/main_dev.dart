@@ -2,7 +2,7 @@
  * @Author     : leafney
  * @Github     : https://github.com/leafney
  * @Date       : 2021-03-19 11:45:54
- * @Description: main
+ * @Description: develop environment start main page
  */
 
 import 'package:app_start/config/env_config.dart';
@@ -15,8 +15,8 @@ import 'package:get/get.dart';
 import 'package:oktoast/oktoast.dart';
 
 void main() {
-  // product environment
-  EnvConfig.env = Env.Production;
+  // develop environment
+  EnvConfig.env = Env.Develop;
 
   runApp(MyApp());
 }
