@@ -5,7 +5,8 @@
  * @Description: main
  */
 
-import 'package:app_start/page/home.dart';
+import 'package:app_start/page/welcome/initial.dart';
+import 'package:app_start/route/app_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/screenutil_init.dart';
 import 'package:get/get.dart';
@@ -31,9 +32,9 @@ class MyApp extends StatelessWidget {
         child: GetMaterialApp(
           title: 'Flutter Demo',
           // theme: appThemeData,
-          // getPages: AppPages.pages,
-          home: HomePage(),
-          // home: InitPage(),
+          getPages: AppPages.pages,
+          // home: HomePage(), // debug
+          home: InitPage(),
         ),
       ),
     );
