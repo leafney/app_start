@@ -7,6 +7,7 @@
 
 import 'package:app_start/page/welcome/initial.dart';
 import 'package:app_start/route/app_pages.dart';
+import 'package:app_start/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/screenutil_init.dart';
 import 'package:get/get.dart';
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         position: ToastPosition.center,
         child: GetMaterialApp(
           title: 'Flutter Demo',
-          // theme: appThemeData,
+          theme: appThemeData,
           getPages: AppPages.pages,
           // home: HomePage(), // debug
           home: InitPage(),
