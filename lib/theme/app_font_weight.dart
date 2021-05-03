@@ -18,4 +18,7 @@ class XFountWeight {
 
   /// FontWeight Medium
   static const medium = FontWeight.w500;
+
+  // FontWeight Semibold
+  static const semibold = FontWeight.w600;
 }
